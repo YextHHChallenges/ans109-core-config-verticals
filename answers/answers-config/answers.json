@@ -1,0 +1,61 @@
+{
+  "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
+  "$id": "answers",
+  "name": "Answers",
+  "supportedLocales": [],
+  "countryRestrictions": [],
+  "verticals": {
+    "events": {
+      "entityTypes": [
+        "event"
+      ],
+      "keywords": [],
+      "name": "Events",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "restaurants": {
+      "entityTypes": [
+        "restaurant"
+      ],
+      "keywords": [],
+      "name": "Restaurants",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "builtin.location": {
+          "nlpFilter": true
+        },
+        "mainPhone": {
+          "directAnswer": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    }
+  },
+  "synonyms": {
+    "oneWay": [
+      {
+        "phrase": "location",
+        "synonyms": [
+          "restaurant"
+        ]
+      }
+    ],
+    "synonymSet": []
+  },
+  "localizations": {}
+}
