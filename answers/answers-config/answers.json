@@ -9,7 +9,6 @@
       "entityTypes": [
         "event"
       ],
-      "keywords": [],
       "name": "Events",
       "searchableFields": {
         "builtin.entityType": {
@@ -26,7 +25,6 @@
       "entityTypes": [
         "restaurant"
       ],
-      "keywords": [],
       "name": "Restaurants",
       "searchableFields": {
         "builtin.entityType": {
