@@ -8,6 +8,9 @@
       "link": "http://order.turtleheadtacos.com",
       "linkType": "URL"
     },
+    "c_promotingEvents": [
+      "Event-5"
+    ],
     "c_restaurantFeatures": [
       "OUTDOOR_SEATING",
       "LIVE_MUSIC",
